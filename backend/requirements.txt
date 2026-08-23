@@ -1,0 +1,18 @@
+# --- Core ML (must match backend exactly) ---
+scikit-learn==1.6.1
+xgboost==2.1.4
+numpy==2.0.2
+pandas==2.2.2
+joblib==1.4.2
+scipy==1.13.1
+
+# --- Notebook / EDA (needed to re-run your training notebook) ---
+matplotlib==3.9.2
+seaborn==0.13.2
+statsmodels==0.14.4
+
+# --- Backend serving (match deployment) ---
+flask==2.2.2
+Werkzeug==2.2.2
+gunicorn==20.1.0
+requests==2.32.3
